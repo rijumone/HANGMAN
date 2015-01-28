@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>H A N G M A N</title>
+        <meta name="generator" content="Bootply" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+                <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+       
+
+        <!-- HEADER 
+        =================================-->
+
+        <div class="container">
+            <div class="row" id="intro">
+                <div class="col-md-12 main-heading"><strong>H A N G M A N</strong></div>
+                <div class="col-md-12 game-word"><input maxlength="12" type="text" id="input_text" placeholder="type in the word"></div>
+                <div class="col-md-12 game-word"><textarea cols="40" id="hint_text" placeholder="type in a hint"></textarea></div>
+                <div class="col-md-12 game-word"><button type="button" id="start">Start!</button></div>
+            </div>
+            <div class="row" style="display: none;" id="playground">
+                <!--                <div class="col-md-12 hangman-fig"> 
+                                    <span style="display: none;" id="hangman_1">O</span>
+                                    <span style="display: none;" id="hangman_2">_</span><span style="display: none;" id="hangman_3">|</span><span  style="display: none;" id="hangman_4">_</span>
+                                    <span style="display: none;" id="hangman_5">|</span>
+                                    <span style="display: none;" id="hangman_6">/</span><span >\</span>
+                                </div>-->
+                <div class="col-md-3" style="" > <div id="hint_display" class="sidebar_divs"><strong>Hint:</strong> </div></div>
+                <div class="col-md-6" style="text-align: center;"> 
+                    <pre style="" id="hangman_0">
+ +=======||
+ |      \||
+         ||
+         ||
+         ||
+         ||
+__________||_
+                    </pre>
+                    <pre style="display: none;" id="hangman_1">
+ +=======||
+ |      \||
+ O       ||
+         ||
+         ||
+         ||
+__________||_
+                    </pre>
+                    <pre style="display: none;" id="hangman_2">
+ +=======||
+ |      \||
+ O       ||
+ |       ||
+         ||
+         ||
+__________||_
+                    </pre>
+                    <pre style="display: none;" id="hangman_3">
+ +=======||
+ |      \||
+ O       ||
+_|       ||
+         ||
+         ||
+__________||_
+                    </pre>
+                    <pre style="display: none;" id="hangman_4">
+ +=======||
+ |      \||
+ O       ||
+_|_      ||
+         ||
+         ||
+__________||_
+                    </pre>
+                    <pre style="display: none;" id="hangman_5">
+ +=======||
+ |      \||
+ O       ||
+_|_      ||
+ |       ||
+         ||
+__________||_
+                    </pre>
+                    <pre style="display: none;" id="hangman_6">
+ +=======||
+ |      \||
+ O       ||
+_|_      ||
+ |       ||
+/        ||
+__________||_
+                    </pre>
+                    <pre style="display: none;" id="hangman_7">
+ +=======||
+ |      \||
+ O       ||
+_|_      ||
+ |       ||
+/ \      ||
+__________||_
+    GAME OVER!                    </pre>
+                    <pre style="display: none;" id="hangman_won">
+ +=======||
+        \||
+         ||
+ O       ||
+_|_      ||
+ |       ||
+ / \______||_
+    YOU WON!                    </pre>
+                </div>
+                <div class="col-md-3" style=""><div id="trials_div" class="sidebar_divs"></div></div>
+                <input type="text" id="try" maxlength="1" style="display: none;">
+                <div  class="row"><div class="col-md-12 hangman-fig"> <div id="display_area"></div></div></div>
+                <div class="row" style="display: none;"><div class="col-md-12 game-word">
+                                <button type="button" id="restartBtn">Play again!</button>
+                    </div></div>
+
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+
+        <!-- script references -->
+        <script src="js/jquery/jquery-1.11.1.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script>
+        </script>
+    </body>
+</html>

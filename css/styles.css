@@ -1,0 +1,38 @@
+.calc-main{
+    width: 647px;
+}
+.well{
+    font-size: 30px;
+    font-family: monospace;
+}
+.slash-div{
+
+}
+.main-heading{
+    font-size: 70px;
+    text-align: center;
+    font-family: monospace;
+    margin-bottom: 35px;
+}
+.game-word{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+.hangman-fig{
+    font-family: monospace;
+    font-size: 64px;
+    line-height: 90%;
+    text-align: center;
+}
+pre{
+    font-size: 48px; font-family: monospace; line-height: 105%; background-color: ivory;
+}
+.sidebar_divs{
+    border: 1px solid purple;
+    font-size: 32px;
+    border-radius: 4px;
+    font-family: monospace;
+    padding: 20px;
+}
+#trials_div{text-decoration: line-through;}
